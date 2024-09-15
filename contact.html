@@ -1,1 +1,109 @@
-contact us page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contant Us</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Tech Store</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#Aj">Shop</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside>
+        <h2>Shop by:</h2>
+        <section>
+            <h3>Category</h3>
+            <hr>
+            <ul>
+                <li>All items</li>
+                <li>Cameras</li>
+                <li>Laptops</li>
+                <li>Phones</li>
+                <li>Accessories</li>
+                <li>Other</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Price <span>($)</span></h3>
+            <hr>
+            <ul>
+                <li>1-9</li>
+                <li>10-29</li>
+                <li>30-59</li>
+                <li>60-99</li>
+                <li>100+</li>
+            </ul>
+        </section>
+    </aside>
+    <main>
+            <h2>Contact Us:</h2>
+            <form>
+                <div>
+                    <label for="name">Name:</label><input type="text" placeholder="enter your name" id="name" name="name">
+                </div>
+
+                <div>
+                    <label for="email">E-mail:</label><input type="email" id="email" name="email" placeholder="enter your email"> 
+                </div>
+
+                <div>
+                    <label for="message">Message:</label><textarea id="message" cols="30" rows="5" name="message" placeholder="Tell us what's up?"></textarea>
+                </div>
+                <div>
+                    <label for="subject">Subject:</label>
+                    <select id="subject">
+                     <optgroup label="Product issues">
+                        <option value="returns">Returns</option>
+                        <option value="faulty_items">Faulty items</option>
+                     </optgroup>
+                     <optgroup label="Delivery">
+                        <option value="delivery_info">Delivery info</option>
+                        <option value="order_tracking">Tracking my Order</option>
+                     </optgroup>
+                     <optgroup label="Other">
+                        <option value="advice">Advice</option>
+                        <option value="other">Other</option>
+                     </optgroup>
+                    </select>
+                </div>
+
+                <div>
+                    <p>Subscribe to Future offers by:</p>
+                    <label for="newsletter">Newsletter</label>
+                    <input type="checkbox" id="newsletter" name="subscribe" value="newsletter">
+
+                    <label for="email">E-mail</label>
+                    <input type="checkbox" id="email" name="subscribe" value="email">
+
+                    <label for="post">Post</label>
+                    <input type="checkbox" id="post" name="subscribe" value="post">
+                </div>
+
+                <div>
+                    <p>How would you like us to resopond?</p>
+                    <label for="phoneResponse">Phone</label>
+                    <input type="radio" id="phoneResponse" name="response" value="phone">
+                    <label for="emailResponse">E- mail</label>
+                    <input type="radio" id="emailResponse" name="response" value="email">
+                </div>
+            </form>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#Aj">Shop</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </footer>
+    
+</body>
+</html>
