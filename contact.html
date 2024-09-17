@@ -11,8 +11,8 @@
 </head>
 <body>
     <header>
+        <h1><a href="index.html">Tech Store</a></h1>
         <nav>
-            <h1>Tech Store</h1>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#Aj">Shop</a></li>
@@ -50,15 +50,13 @@
     <main>
             <h2>Contact Us:</h2>
             <form>
-                <div>
+                <div class="inline">
                     <label for="name">Name:</label><input type="text" placeholder="enter your name" id="name" name="name">
                 </div>
-
-                <div>
+                <div class="inline">
                     <label for="email">E-mail:</label><input type="email" id="email" name="email" placeholder="enter your email"> 
                 </div>
-
-                <div>
+                <div class="inline">
                     <label for="message">Message:</label><textarea id="message" cols="30" rows="5" name="message" placeholder="Tell us what's up?"></textarea>
                 </div>
                 <!-- <div>
@@ -78,7 +76,7 @@
                      </optgroup>
                     </select>
                 </div> -->
-                <div><label for="subject">Subject</label>
+                <div class="inline"><label for="subject">Subject</label>
                     <input type="text" list="subjects" id="subject" placeholder="enter your subject">
                     <datalist id="subjects">
                         <option value="returns">
@@ -132,6 +130,7 @@
                 <li><a href="#Aj">Shop</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
+            <input type="search" placeholder="search..">
         </nav>
     </footer>
     
