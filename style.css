@@ -170,4 +170,7 @@ video{
     input[type="search"]{
         width:20%;
     }
+    header h1{
+        width: 50%;
+    }
 }
